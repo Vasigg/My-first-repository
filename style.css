@@ -1,0 +1,97 @@
+.container{
+  font-family:"open sans";
+  max-width:600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-holder{
+  height:200px;
+  display:flex;
+  /*main axis*/
+  justify-content:space-between;
+  /*cross axis*/
+  align-items:center;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-content: space-between;
+}
+.card {
+  width:180px;
+  background-color: #3cb878;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom:5px;
+    color:white;
+      box-shadow:0px 0px 5px 2px grey;
+  }
+
+
+ .newsletter-form {
+   color:grey; 
+   margin-top:40px;
+}
+.newsletter-form h3{
+   margin-top:0; 
+}
+
+#terms{
+  position: relative;
+ top: 2px;
+   left: 0px;
+  }
+
+#{
+  position: relative;
+ top: 2px;
+   left: 0px;
+  } 
+ .newsletter-form {
+  border: solid thin #cfcfcf;
+   padding: 10px;
+   border-radius: 3px;
+}
+ .closing-x {
+    position: relative;
+   bottom:180px;
+   left:280px;
+     
+}
+ .newsletter-form #email {
+  display:block;
+  width: 100%;
+  border-color:solid thin
+    #cfcfcf;
+   height: 30px;
+   padding-left: 3px;
+   border-radius: 3px;
+   box-sizing: border-box;
+}
+ .newsletter-form button {
+  display:block;
+  width: 100%;
+  background-color: #3cb878;
+  border:0;
+  color:white;
+  height: 30px;
+  margin-top:3px;
+ }
+  
+.closing-x button{
+  background: none;
+    color:black;
+  cursor:pointer;
+}
+
+#question-circle{
+  height:100px;
+  width: 100px;
+  background-color:#3cb878;
+  border-radius:50%;
+   color:white;
+   font-size: 70px;
+  text-align: center;
+  position:fixed;
+    bottom:10px;
+    right:10px;
+  cursor:pointer;
+}
